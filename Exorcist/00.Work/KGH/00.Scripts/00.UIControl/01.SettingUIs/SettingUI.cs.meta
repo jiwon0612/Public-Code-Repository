@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3865d6c46fdd9a84f95eb65fdb7c2aa0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerInputReader: {fileID: 11400000, guid: ccd95204aa8c0b2409ff6a09d8f3bcb5, type: 2}
+  - uiInputReader: {fileID: 11400000, guid: 5576e0ab10b3c1d48bcb15290225c23b, type: 2}
+  - loadFileUI: {instanceID: 0}
+  - titleUI: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

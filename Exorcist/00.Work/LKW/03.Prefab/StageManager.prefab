@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5477037802917126192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6456569622814231117}
+  - component: {fileID: 5580509986768670394}
+  - component: {fileID: 3260167146562741434}
+  m_Layer: 0
+  m_Name: StageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6456569622814231117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5477037802917126192}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5580509986768670394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5477037802917126192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 484066fd013c62243b96993edc702f91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameSaveManagerSO: {fileID: 11400000, guid: e4b09d2b3be9dc0468a5aac0e0193afd, type: 2}
+  _transitionUI: {fileID: 0}
+  _bossRoom1Data: {fileID: 11400000, guid: f776b88240e719e4d83154d527ea3648, type: 2}
+  _bossRoom2Data: {fileID: 11400000, guid: e1ab2cc1e8e03fb4aa9322d8d50e66cb, type: 2}
+  _bossRoom3Data: {fileID: 11400000, guid: b0747e42ff0058c47ac45876abcf1aeb, type: 2}
+--- !u!114 &3260167146562741434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5477037802917126192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50e4cec8ee536e49a2adc09c97ab3f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _potalToRobby: {fileID: 0}

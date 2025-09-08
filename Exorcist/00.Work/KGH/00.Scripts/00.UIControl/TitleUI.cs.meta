@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 470ffcfa23f512d4098a3a3498d11cde
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - uiSoundSO: {fileID: 11400000, guid: e6b0af88c9ce23644b6ba20edee233d1, type: 2}
+  - transitionUI: {instanceID: 0}
+  - settingUi: {instanceID: 0}
+  - loadFileUI: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
